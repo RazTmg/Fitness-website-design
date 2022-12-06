@@ -1,337 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fitness Website Development</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header id="header">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="logo.webp" /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fa-sharp fa-solid fa-bars text-white fs-3"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#header">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#features">FEATURES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonilas">REVIEWS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">CONTACT US</a>
-              </li>
-            </ul>
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fitness Website Development</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.webp" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-sharp fa-solid fa-bars text-white fs-3"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#header">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonilas">REVIEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">CONTACT US</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <!-------------Welcome text ----------->
+  <!-------------Welcome text ----------->
 
-    <section id="welcome">
-      <div class="container">
-        <div class="welcome text-center animate__animated animate__fadeInLeft">
-          <h1>Create Website with Animation</h1>
+  <section id="welcome">
+    <div class="container">
+      <div class="welcome text-center animate__animated animate__fadeInLeft">
+        <h1>Create Website with Animation</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+          dolor sit amet consectetur <br> adipisicing elit.Lorem ipLorem ipsum
+          dolor sit amet consectetur adipisicing <br> elitorem ipsum dolor sit amet
+          consectetur adipisicing
+        </p>
+        <button class="home-btn">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-------------about u---------------->
+
+  <section id="about">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 text-center  animate__animated animate__fadeInLeft animate__delay-1s">
+          <img src="fitness.webp" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 text-justify animate__animated animate__fadeInRight animate__delay-s">
+          <h3>Knowledge, Skill and Hardwork</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-            dolor sit amet consectetur <br> adipisicing elit.Lorem ipLorem ipsum
-            dolor sit amet consectetur adipisicing <br>  elitorem ipsum dolor sit amet
-            consectetur adipisicing 
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
           </p>
-          <button class="home-btn">Subscribe</button>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
+          </p>
+
+        </div>
+        <div class="col-md-6 text-justify animate__animated animate__fadeInRight animate__delay-2s">
+          <h3>Work Hard in Silence</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
+          </p>
+        </div>
+        <div class="col-md-6 animate__animated animate__fadeInRight animate__delay-2s">
+          <iframe width="500" height="230" src="https://www.youtube.com/embed/yKItGCpL73M" title="YouTube video player"
+            frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-------------about u---------------->
 
-    <section id="about">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6 text-center  animate__animated animate__fadeInLeft animate__delay-1s">
-            <img src="fitness.webp" class="img-fluid">
-          </div>
-          
-          <div class="col-md-6 text-justify animate__animated animate__fadeInRight animate__delay-s">
-            <h3>Knowledge, Skill and Hardwork</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing   elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing  elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-            
-          </div>
-          <div class="col-md-6 text-justify animate__animated animate__fadeInRight animate__delay-2s">
-            <h3>Work Hard in Silence</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing   elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing  elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-          </div>
-          <div class="col-md-6 animate__animated animate__fadeInRight animate__delay-2s">
-            <iframe width="500" height="230" src="https://www.youtube.com/embed/yKItGCpL73M" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; 
-            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-            ></iframe>
-            </p>
-          </div>
+  <!------------------Servicess---------------------->
+
+  <section id="services">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4">
+          <h4 class="animate__animated animate__backInUp animate__delay-2.5ss">Gym</h4>
+          <p class="animate__animated animate__backInUp animate__delay-3s">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="animate__animated animate__backInUp animate__delay-2.5s">Boxing</h4>
+          <p class="animate__animated animate__backInUp animate__delay-3s">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="animate__animated animate__backInUp animate__delay-2.5s">Mixed Martial Arts</h4>
+          <p class="animate__animated animate__backInUp animate__delay-3s">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing elitorem ipsum dolor sit amet
+            consectetur adipisicing
+          </p>
+
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-----------------------------features--------------------->
 
-
-    <!------------------Servicess---------------------->
-
-    <section id="services">
-      <div class="container">
-        <div class="row ">
-          <div class="col-md-4">
-            <h4 class="animate__animated animate__backInUp animate__delay-2.5ss">Gym</h4>
-            <p class="animate__animated animate__backInUp animate__delay-3s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing  elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h4 class="animate__animated animate__backInUp animate__delay-2.5s">Boxing</h4>
-            <p class="animate__animated animate__backInUp animate__delay-3s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing  elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-          </div>
-          <div class="col-md-4">
-            <h4 class="animate__animated animate__backInUp animate__delay-2.5s">Mixed Martial Arts</h4>
-            <p class="animate__animated animate__backInUp animate__delay-3s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing  elitorem ipsum dolor sit amet
-              consectetur adipisicing 
-            </p>
-            
-          </div>
+  <section id="features">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 animate__animated animate__fadeInLeft animate__delay-3.5s">
+          <img src="fitnis.jpg" class="imge">
         </div>
-      </div>
-    </section>
-    <!-----------------------------features--------------------->
-
-    <section id="features">
-      <div class="container">
-        <div class="row ">
-          <div class="col-md-6 animate__animated animate__fadeInLeft animate__delay-3.5s"> 
-            <img src="fitnis.jpg" class="imge">
-          </div>
-          <div class="col-md-6 animate__animated animate__fadeInDown animate__delay-4s">
+        <div class="col-md-6 animate__animated animate__fadeInDown animate__delay-4s">
           <div class="features-box">
             <div class="features-left">
               <i class="fa fa-trophy"></i>
-              
+
             </div>
             <div class="features-right">
               <h4>Certified Trainer</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-                dolor sit amet consectetur adipisicing elit.Lorem ipLorem 
+                dolor sit amet consectetur adipisicing elit.Lorem ipLorem
               </p>
-              
+
             </div>
           </div>
           <div class="features-box">
             <div class="features-left">
               <i class="fa fa-heartbeat"></i>
-              
+
             </div>
             <div class="features-right">
               <h4>Free Consultation</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-                dolor sit amet consectetur adipisicing elit.Lorem ipLorem 
+                dolor sit amet consectetur adipisicing elit.Lorem ipLorem
               </p>
-              
+
             </div>
           </div>
           <div class="features-box">
             <div class="features-left">
               <i class="fa fa-clock-four"></i>
-              
+
             </div>
             <div class="features-right">
               <h4>Flexible Time</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-                dolor sit amet consectetur adipisicing elit.Lorem ipLorem 
+                dolor sit amet consectetur adipisicing elit.Lorem ipLorem
               </p>
-              
+
             </div>
           </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-
-<!--------------------Testimonilas------------------->
-
-<section id="testimonilas">
-  <div class="container">
- 
-    <h1 class="text-center">Meet our Users</h1>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-      dolor sit amet consectetur adipisicing elit <br>.Lorem ipLorr elit.Lorem ipLorem nsectetur adipisicing elit.Lorem ipLorem</p>
-    
-    <div class="row">
-      <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-5s">
-        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-          dolor sit amet consectetur adipisicing elit.Lorem ipLorem <br> <i class="fa-brands fa-twitter"></i><span>@username</span> </p>
-          
-          <img src="Raj.jpg">
-      </div>
-
-      <div class="col-md-4 animate__animated animate__fadeInUp ">
-        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-          dolor sit amet consectetur adipisicing elit.Lorem ipLorem <br> <i class="fa-brands fa-twitter"></i><span>@username</span> </p>
-          
-          <img src="Raj.jpg">
-      </div>
-
-      <div class="col-md-4 animate__animated animate__fadeInRight animate__delay-5s">
-        <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-          dolor sit amet consectetur adipisicing elit.Lorem ipLorem <br> <i class="fa-brands fa-twitter"></i><span>@username</span> </p>
-          
-          <img src="Raj.jpg">
       </div>
     </div>
-     
- 
-  </div>
-</section>
+  </section>
 
-      <!--------------------Subscribe------------------>
 
-    <section id="subscribe">
-      <div class="container">
-        <div class="subscribe text-center  animate__animated animate__fadeInUp animate__delay-6s">
-          <h4>Join For Free Trial Now!</h3>
-            <p>Subscribe our Newsletter and Get 30 Days Free Trial</p>
-            <div class="input-group">
-              <input type="email" class="form-control" placeholder="Email Id">
-              
-              <button class="btn btn-primary">subscribe</button>
-           
-            </div>
+  <!--------------------Testimonilas------------------->
+
+  <section id="testimonilas">
+    <div class="container">
+
+      <h1 class="text-center">Meet our Users</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+        dolor sit amet consectetur adipisicing elit <br>.Lorem ipLorr elit.Lorem ipLorem nsectetur adipisicing
+        elit.Lorem ipLorem</p>
+
+      <div class="row">
+        <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-5s">
+          <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem <br> <i
+              class="fa-brands fa-twitter"></i><span>@username</span> </p>
+
+          <img src="Raj.jpg">
+        </div>
+
+        <div class="col-md-4 animate__animated animate__fadeInUp ">
+          <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem <br> <i
+              class="fa-brands fa-twitter"></i><span>@username</span> </p>
+
+          <img src="Raj.jpg">
+        </div>
+
+        <div class="col-md-4 animate__animated animate__fadeInRight animate__delay-5s">
+          <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem <br> <i
+              class="fa-brands fa-twitter"></i><span>@username</span> </p>
+
+          <img src="Raj.jpg">
         </div>
       </div>
-    </section>
 
-    <!--------------footer section----------------------->
 
-    <footer id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="logo.webp">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
-              dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
-              dolor sit amet consectetur adipisicing  
-            </p>
+    </div>
+  </section>
+
+  <!--------------------Subscribe------------------>
+
+  <section id="subscribe">
+    <div class="container">
+      <div class="subscribe text-center  animate__animated animate__fadeInUp animate__delay-6s">
+        <h4>Join For Free Trial Now!</h3>
+          <p>Subscribe our Newsletter and Get 30 Days Free Trial</p>
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Email Id">
+
+            <button class="btn btn-primary">subscribe</button>
+
           </div>
-          <div class="col-md-3">
-            <h1>Features</h1>
-            <p>Certified Trainers</p>
-            <p>Free Consultation</p>
-            <p>Flexible Time</p>
-            <p>30 Days Free Trial</p>
-          </div>
-          <div class="col-md-3">
-            <h1>Quick Contact</h1>
-            <p><i class="fa fa-phone-square"></i> +977 25221838883</p>
-            <p><i class="fa fa-envelope"></i> contact@website.com</p>
-            <p><i class="fa fa-home"></i> XXX company, XYZ complex</p>
-            <p class="city"> City, Country</p>
-          </div>
-          <div class="col-md-3">
-            <h1>Follow Us On</h1>
-            <p><i class="fa-brands fa-facebook"></i> Facebook</p>
-            <p><i class="fa-brands fa-youtube"></i> Youtube </p>
-            <p><i class="fa-brands fa-linkedin"></i> Linkedin</p>
-            <p><i class="fa-brands fa-twitter"></i> Twitter</p>
-          </div>
-        </div><hr>
-        <div class="copyright">Copyright@copy designed by Raz Tamang</div>
       </div>
-    </footer>
-<a href="#" style="text-decoration: none; background: black; color: white; box-shadow: 0px 9px 10px white, 0px 9px 10px black; padding: 6px; border-radius: 5px; font-size: 20px; position: fixed; bottom: 250px; right: 0;">Top<i class="fa-solid fa-arrow-up"></i></a>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/smooth-scroll.js"></script>
-    <script>
-      var scroll = new SmoothScroll('a[href*="#"]');
-    </script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
+    </div>
+  </section>
 
-    </script>
-  </body>
+  <!--------------footer section----------------------->
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="logo.webp">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. orem ipsum
+            dolor sit amet consectetur adipisicing elit.Lorem ipLorem ipsum
+            dolor sit amet consectetur adipisicing
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h1>Features</h1>
+          <p>Certified Trainers</p>
+          <p>Free Consultation</p>
+          <p>Flexible Time</p>
+          <p>30 Days Free Trial</p>
+        </div>
+        <div class="col-md-3">
+          <h1>Quick Contact</h1>
+          <p><i class="fa fa-phone-square"></i> +977 25221838883</p>
+          <p><i class="fa fa-envelope"></i> contact@website.com</p>
+          <p><i class="fa fa-home"></i> XXX company, XYZ complex</p>
+          <p class="city"> City, Country</p>
+        </div>
+        <div class="col-md-3">
+          <h1>Follow Us On</h1>
+          <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+          <p><i class="fa-brands fa-youtube"></i> Youtube </p>
+          <p><i class="fa-brands fa-linkedin"></i> Linkedin</p>
+          <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">Copyright@copy designed by Raz Tamang</div>
+    </div>
+  </footer>
+  <a href="#"
+    style="text-decoration: none; background: black; color: white; box-shadow: 0px 9px 10px white, 0px 9px 10px black; padding: 6px; border-radius: 5px; font-size: 20px; position: fixed; bottom: 250px; right: 0;">Top<i
+      class="fa-solid fa-arrow-up"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+
+  </script>
+</body>
+
 </html>
